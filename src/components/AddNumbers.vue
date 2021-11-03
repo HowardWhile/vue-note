@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import {EventBus} from '../EventBus.js' // 引入EventBus實體
+import { store } from '../store.js'
 
 export default {
   data() {
@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     addNumber() {
-      EventBus.$emit('addNumber',parseInt(this.number))
+      store.addNumber(this.number)
     }
   }
 }
