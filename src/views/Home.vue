@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="你學會了嗎?"/>
+    <HelloWorld msg="你學會了嗎????"/>
   </div>
 </template>
 
